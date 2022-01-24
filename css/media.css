@@ -1,16 +1,126 @@
  /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {}
+@media (max-width: 575.98px) {
+    .section-title{
+        font-size: 30px;
+    }
+    /* banenr */
+    .banner-content{
+        max-width: 100%;
+    }
+    .banner-content .banner-title{
+        font-size: 24px;
+line-height: 36px;
+    }
+    .banner-content .banner-details{
+        margin-top: 10px;
+        margin-bottom: 16px;
+        padding: 0 ;
+    }
+    /* package */
+    .packages-wrapper{
+        margin-top: 10px;
+    }
+    .single-package {
+        margin-bottom: 0;
+    }
+    .hot-package {
+        margin-top: 0px;
+    }
+    /* faq */
+    .faq-section {
+        padding-bottom: 70px;
+    }
+    .faq-wrapper {
+        margin-top: 50px;
+    }
+    .accordion-button{
+        font-size: 16px !important;
+    }
+    /* gallery */
+    .gallery-wrapper {
+        margin-top: 70px;
+    }
+    .gallery-section {
+        padding-bottom: 50px;
+    }
+    /* footer */
+    footer {
+        padding: 50px 0;
+    }
+}
 
  /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .section-title{
+        font-size: 30px;
+    }
+    /* banenr */
+    .banner-content{
+        max-width: 100%;
+    }
+    .banner-content .banner-title{
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .banner-content .banner-details{
+        margin-top: 10px;
+        margin-bottom: 16px;
+        padding: 0 ;
+    }
+    /* package */
+    .packages-wrapper{
+        margin-top: 10px;
+    }
+    .single-package {
+        margin-bottom: 0;
+    }
+    .hot-package {
+        margin-top: 0px;
+    }
+    /* faq */
+    .faq-section {
+        padding-bottom: 70px;
+    }
+    .faq-wrapper {
+        margin-top: 50px;
+    }
+    .accordion-button{
+        font-size: 16px !important;
+    }
+    /* gallery */
+    .gallery-wrapper {
+        margin-top: 70px;
+    }
+    .gallery-section {
+        padding-bottom: 50px;
+    }
+    .gallery-section {
+        padding-bottom: 50px;
+    }
+    /* footer */
+    footer {
+        padding: 50px 0;
+    }
+}
 
  /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+    .banner-content .banner-details{
+        margin-top: 10px;
+        margin-bottom: 16px;
+        padding: 0 ;
+    }
+    .packages-wrapper {
+        margin-top: 20px;
+    }
     .hot-package {
         margin-top: 0;
     }
-    .packages-wrapper{
-        margin-top: 80px;
+    .faq-section {
+        padding-bottom: 60px;
+    }
+    .gallery-wrapper {
+        margin-top: 50px;
     }
 }
 
