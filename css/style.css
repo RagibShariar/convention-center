@@ -5,8 +5,42 @@ h1,h2,h3,h4,h5,h6,p{
 body{
     font-family: 'Poppins', sans-serif;
 }
-
-
+.main-menu{
+    font-weight: 500;
+color: #3E3E3E;
+}
+.main-menu li a{
+    margin:   0 15px !important;
+}
+/* banner slider start */
+.banner-content{
+    max-width: 639px;
+}
+.banner-content .banner-title{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+}
+.banner-content .banner-details{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0 70px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.banner-content .banner-btn{
+    margin-bottom: 30px;
+    padding: 10px 44px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #3F87F5;
+    background-color: #fff;
+}
+.banner-content .banner-btn:hover{
+    background-color: #3F87F5;
+    color: #fff;
+}
+/* banner slider end */
 
 
 .section-title{
@@ -120,3 +154,38 @@ body{
     padding: 6px 11px;
 }
 /* package-section end  */
+/* faq start  */
+.faq-section {
+    padding-bottom: 150px;
+}
+.faq-wrapper{
+    margin-top: 100px;
+}
+/* bt accordion css */
+.accordion-button:focus {
+	box-shadow: none;
+}
+.accordion-button{
+	font-weight: 500 !important;
+    font-size: 20px !important;
+    line-height: 28px !important;
+    color: #383838 !important;
+}
+.accordion-body {
+	line-height: 28px;
+    color: #7E848C;
+}
+.accordion-item {
+	border: 1px solid #D5E5FB !important;
+    border-radius: 5px;
+}
+/* faq end  */
+/* footer start */
+footer{
+    background-color: #0B0D17;
+    color: #D9DBE1;
+}
+.copyright-text{
+    padding: 100px 0;
+}
+/* footer end */
