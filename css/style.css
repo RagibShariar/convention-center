@@ -1,0 +1,122 @@
+/* Common CSS */
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+.section-title{
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 57px;
+    text-transform: capitalize;
+    color: #0A0826;
+    text-align: center;
+}
+/* package-section start  */
+.package-section{
+    padding-bottom: 50px;
+}
+.packages-wrapper{
+    margin-top: 160px;
+}
+.single-package{
+    margin-bottom: 40px;
+    padding: 50px 27px 43px 27px;
+}
+.single-package .package-price{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #231D4F;
+}
+.single-package .package-name{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #231D4F;
+}
+.single-package .package-details{
+    margin-bottom: 18px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #848199;
+}
+.single-package .package-item{}
+.single-package .package-item ul{
+    padding-left: 0;
+    margin: 0;
+}
+.single-package .package-item ul li{
+    margin-bottom: 10px;
+    list-style: none;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #848199;
+}
+.single-package .package-item ul li i{
+    margin-right: 7px;
+    font-size: 11px;
+    color: #5243C2;
+    background-color: #5243C21A;
+    /* padding: 3px; */
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+.single-package .package-btn{
+    margin-top: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #3F87F5;
+    background-color: rgba(244, 150, 210, 0.1);
+    border-radius: 24px;
+    padding: 13px 54px 14px 54px ;
+}
+.package-btn:focus{
+    box-shadow: transparent;
+}
+.package-btn:hover{
+    background-color: #3F87F5;
+    color: #FFF;
+}
+.hot-package {
+    margin-top: -90px;
+    padding: 50px 30px 43px 30px;
+    color: #FFF !important;
+    background-color: #3F87F5;
+    box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+    border-radius: 26px;
+}
+.hot-package .package-price,
+.hot-package .package-name,
+.hot-package .package-details,
+.hot-package .package-item ul li,
+.hot-package .package-item ul li i{
+    color: #FFF !important;
+}
+.hot-package .package-btn{
+    
+    background-color: #fff !important;
+    color: #5243C2 !important;
+}
+.hot-badge{
+    background-color: #FF4E4E !important;
+    padding: 6px 11px;
+}
+/* package-section end  */
